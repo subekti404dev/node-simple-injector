@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: arm64v8/node
+    container: arm64v8/alpine
     steps:
       - uses: actions/checkout@v2
 
