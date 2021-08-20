@@ -17,7 +17,7 @@
     "pkg": "^5.3.1"
   },
   "pkg": {
-    "targets": [ "node14-linux-arm64", "node14-linux-x64" ],
+    "targets": [ "node14-linux-arm64" ],
     "assets": [ "node_modules/**/*", "api/**/*" ],
     "outputPath": "dist"
   }

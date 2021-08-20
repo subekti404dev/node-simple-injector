@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:14.17.5-stretch-slim
+    container: pionl/node-with-i386:latest
     steps:
       - uses: actions/checkout@v2
 
