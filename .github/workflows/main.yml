@@ -9,8 +9,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:alpine
-    steps:
+    container: node:14.17.5-stretch-slim
       - uses: actions/checkout@v2
 
       - name: Install dependencies
