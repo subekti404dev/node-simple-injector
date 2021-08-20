@@ -10,6 +10,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container: node:14.17.5-stretch-slim
+    steps:
       - uses: actions/checkout@v2
 
       - name: Install dependencies
